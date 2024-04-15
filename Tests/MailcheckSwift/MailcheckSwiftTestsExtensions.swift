@@ -1,8 +1,8 @@
 //
-//  TestExtensions.swift
-//  MailcheckSwift_Tests
+//  MailcheckSwiftTestsExtensions.swift
+//  MailcheckSwiftTests
 //
-//  Created by Bryce Hammond on 11/17/18.
+//  Created by Denys Galante on 15/04/24.
 //
 
 import Foundation
@@ -23,4 +23,3 @@ extension  MailcheckSuggestion : Equatable {
                 lhs.full == rhs.full
     }
 }
-

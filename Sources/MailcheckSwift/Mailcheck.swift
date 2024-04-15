@@ -1,8 +1,8 @@
 //
 //  Mailcheck.swift
-//  Flyreel
+//  SerasaTeam
 //
-//  Created by Bryce Hammond on 8/3/16.
+//  Created by Denys Galante on 15/04/24.
 //  Licensed under the MIT License.
 //
 

@@ -14,19 +14,11 @@ let package = Package(
             name: "MailcheckSwift",
             targets: ["MailcheckSwift"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/Quick/Quick.git", from: "1.3.2"),
-        .package(url: "https://github.com/Quick/Nimble.git", from: "7.3.1")
-    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "MailcheckSwift",
-            dependencies: [
-            "Quick",
-            "Nimble"
-            ]),
+            name: "MailcheckSwift"),
         .testTarget(
             name: "MailcheckSwiftTests",
             dependencies: ["MailcheckSwift"]),
